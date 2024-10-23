@@ -11,6 +11,7 @@ function App() {
 	return (
 		<Router>
 			<Header />
+			<div className="content-wrapper"></div>
 			<Routes>
 				<Route path="/" element={<AboutPage />} />
 				<Route path="/portfolio" element={<PortfolioPage />} />
