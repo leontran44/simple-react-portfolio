@@ -1,10 +1,13 @@
 function AboutPage() {
 	return (
-		<div className="container">
-			<h2>
+		<div className="container-fluid" style={{ padding: '2rem' }}>
+			<h2 className="text-center mt-4">
 				Hello there! 👋 I am thrilled that you stopped by my portfolio!
 			</h2>
-			<p>
+			<p
+				className="text-center mx-auto"
+				style={{ maxWidth: '1100px', fontSize: '1.1rem' }}
+			>
 				My name is Leonardo, and I am a passionate web developer with a
 				love for building amazing applications. I thrive on solving
 				complex problems with elegant and creative solutions. 🚀 Outside
