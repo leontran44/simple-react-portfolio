@@ -11,8 +11,7 @@ function ResumePage() {
 			<p>
 				<a
 					href="../assets/Leon-Tran-Resume.pdf"
-					target="_blank"
-					rel="noopener noreferrer"
+					download="Leon-Tran-Resume.pdf"
 					className="btn btn-primary"
 				>
 					Download My Old CV
