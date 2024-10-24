@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function Project({ title, image, deployedLink, repoLink }) {
 	return (
-		<div className="card mb-4" style={{ width: '18rem' }}>
+		<div className="card mb-4 project-card">
 			<img src={image} className="card-img-top" alt={title} />
 			<div className="card-body">
 				<h5 className="card-title">{title}</h5>
@@ -16,7 +16,7 @@ function Project({ title, image, deployedLink, repoLink }) {
 				</a>
 				<a
 					href={repoLink}
-					className="btn btn-secondary ms-2"
+					className="btn btn-secondary"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
