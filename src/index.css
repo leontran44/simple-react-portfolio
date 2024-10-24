@@ -13,6 +13,10 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.container-fluid {
+	margin-top: 25px;
+	padding: 5rem;
+}
 a {
 	font-weight: 500;
 	color: #646cff;
@@ -36,20 +40,18 @@ body {
 	flex-grow: 1;
 }
 
-.content-wrapper {
-	flex-grow: 1; /* Fill remaining vertical space */
-}
-
 footer {
 	background-color: #f8f9fa;
-	padding: 1rem;
 	text-align: center;
+	margin-top: auto;
 }
 
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
 }
+
+
 
 button {
 	border-radius: 8px;
