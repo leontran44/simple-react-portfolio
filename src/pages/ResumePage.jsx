@@ -18,13 +18,12 @@ function ResumePage() {
 				</a>
 			</p>
 			<h3>Skills</h3>
-			<ul>
+			<ul className="skills-list">
 				<li>JavaScript</li>
 				<li>React</li>
-				<li>Node.js</li>
+				<li>Node.js, Express.js</li>
 				<li>CSS</li>
 				<li>HTML</li>
-				<li>Express.js</li>
 				<li>GraphQL</li>
 				<li>MongoDB</li>
 				<li>MySQL</li>
